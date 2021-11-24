@@ -1,0 +1,32 @@
+.column{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 200px 800px 200px;
+    gap: 5px;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+.temp{
+    border: 2px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.first{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
+}
+.second{
+    background-color:green;
+}
+.third{
+background-color:purple ;
+}
+
+.fourth{
+    background-color: blue;
+    grid-column-start: -3;
+    grid-column-end: -1;
+}

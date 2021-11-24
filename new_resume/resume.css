@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root{
+    --light-black: rgb(29,30,37);
+}
+
+*{
+    padding : 0;
+    margin: 0;
+    font-family:'Be Vietnam', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+.profile{
+    max-width: 1000px;
+    height: 1000px;
+    margin:0 auto;
+    padding-top: 20px;
+    background-color: var(--light-black);
+    
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+
+.profile-picture{
+    width:40%;
+    height: 1000px;
+    background-image:url(./images/my_picture.jpg);
+    background-repeat:repeat;
+    
+    /* text-align:center; */
+    
+}
+
+.about{
+    width: 60%;
+}
+

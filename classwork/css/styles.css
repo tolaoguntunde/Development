@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Zen+Dots&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+
+body{
+    background-color:rgb(245, 238, 225) ;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Zen Dots', cursive;  
+}
+span{
+    font-size: 72px;
+    color: red;
+}
+#first-paragraph{
+    font-size: 30px;
+    color: rgb(41, 39, 39);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.letter-l{
+color: blue;
+}
+footer.name{
+    font-style: italic;
+    font-family: cursive;
+}
+/* .demo{
+    float:left;
+    width: 30%;
+    border: 1em;
+    border-style:groove;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    
+}
+.clr{
+    clear: both;
+}
+header ul{
+    list-style:none;
+}
+header li{
+    display: inline;
+    padding: 2em;
+}
+header{
+    background-color:burlywood ;
+    width: 90%;
+} */

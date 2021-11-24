@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+--yellow: #ffc600;
+--black: #272727;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+   font-weight: 900;
+   background-image: url(./images/topography.svg),
+   linear-gradient(110deg, #f93d66, #6d47d9);
+}
+body{
+    margin: 15px;
+    padding:20px;
+}
+header{
+    width: 100%;
+    padding-top: 50px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navheader a {
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+   padding-left: 70px;
+   padding-right: 70px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-decoration: none;
+   color:var(--black);
+}
+
+.main-header{
+    display:flex;
+    /* grid-template-columns: 60% 40%; */
+    
+}
+.taco{
+    display: flex;
+    width: 60%;
+    background-image: url(./images/taco.jpg);
+   background-size: cover;
+   background-position-x: right;
+   background-position-y: bottom;
+    height: 400px;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.taco h1, p{
+    border-color: var(--yellow);
+    background-color: var(--yellow);
+    
+    
+}
